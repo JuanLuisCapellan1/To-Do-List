@@ -112,17 +112,17 @@ The application uses two main MongoDB collections:
 
 ### Authentication
 
-- `POST /api/auth/register` - Register a new user
-- `POST /api/auth/login` - Login a user
-- `GET /api/auth/account` - Get current user profile
-- `POST /api/auth/refresh-token` - Refresh access token
+- `POST /auth/register` - Register a new user
+- `POST /auth/login` - Login a user
+- `GET /auth/account` - Get current user profile
+- `POST /auth/refresh-token` - Refresh access token
 
 ### Tasks
 
-- `POST /api/tasks` - Create a new task
-- `GET /api/tasks` - Get all tasks for authenticated user
-- `PUT /api/tasks/:id` - Update a specific task
-- `DELETE /api/tasks/:id` - Delete a task (soft delete)
+- `POST /tasks` - Create a new task
+- `GET /tasks` - Get all tasks for authenticated user
+- `PUT /tasks/:id` - Update a specific task
+- `DELETE /tasks/:id` - Delete a task (soft delete)
 
 ## Authentication Flow
 
