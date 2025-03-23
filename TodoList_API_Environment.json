@@ -1,0 +1,33 @@
+{
+	"id": "e4d02f8e-1a23-4b56-c7d8-9e0f1a2b3c4d",
+	"name": "TodoList API Environment",
+	"values": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:3000",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "access_token",
+			"value": "",
+			"type": "secret",
+			"enabled": true
+		},
+		{
+			"key": "refresh_token",
+			"value": "",
+			"type": "secret",
+			"enabled": true
+		},
+		{
+			"key": "task_id",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2023-03-23T00:00:00.000Z",
+	"_postman_exported_using": "Postman/10.13.0"
+} 

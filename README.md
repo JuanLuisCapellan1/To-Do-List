@@ -85,6 +85,39 @@ npm start
 
 The server will start on the port specified in your .env file (default: 3000).
 
+## API Testing with Postman
+
+This project includes a Postman collection and environment for testing all API endpoints.
+
+### Setting up Postman
+
+1. Download and install [Postman](https://www.postman.com/downloads/)
+2. Import the provided files:
+   - `TodoList_API_Postman_Collection.json` - Contains all request definitions
+   - `TodoList_API_Environment.json` - Contains environment variables
+
+### Using the Collection
+
+1. Select the imported environment from the environment dropdown in the top right corner of Postman
+2. Start with the authentication endpoints:
+   - First, create a user with the "Register User" request
+   - Login with the "Login User" request (this will automatically set your access and refresh tokens)
+3. Create tasks using the "Create Task" request
+4. Test other endpoints as needed
+
+The collection has pre-configured scripts that automatically:
+
+- Set access and refresh tokens after login
+- Store task IDs for use in other requests
+
+### Collection Features
+
+- **Request Organization**: Requests are grouped by functionality
+- **Authentication Handling**: Automatic token management
+- **Environment Variables**: Pre-configured variables for your local environment
+- **Query Parameters**: Ready-to-use filters and sorting options for getting tasks
+- **Request Bodies**: Properly formatted JSON bodies for all POST and PUT requests
+
 ## Database Structure
 
 The application uses two main MongoDB collections:
