@@ -99,7 +99,7 @@ The application uses two main MongoDB collections:
 ### Tasks Collection
 
 - `title`: Task title
-- `description`: Task description (optional)
+- `description`: Task description
 - `status`: Task status (pending, in-progress, completed)
 - `priority`: Task priority (low, medium, high)
 - `dueDate`: Due date for the task (optional)
